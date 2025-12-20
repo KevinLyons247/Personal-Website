@@ -1,0 +1,105 @@
+.activities {
+  background: #f8f9fa;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.activity-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.activity-organization {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.activity-role {
+  font-size: 1rem;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.activity-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  text-align: right;
+}
+
+.activity-location {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.activity-period {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.activity-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-bullets li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #555;
+  line-height: 1.6;
+}
+
+.activity-bullets li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .activity-card {
+    padding: 1.5rem;
+  }
+  
+  .activity-header {
+    flex-direction: column;
+  }
+  
+  .activity-meta {
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .activity-organization {
+    font-size: 1.1rem;
+  }
+}
+

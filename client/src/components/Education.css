@@ -1,0 +1,87 @@
+.education {
+  background: #f8f9fa;
+}
+
+.education-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.education-school {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.education-location {
+  color: #667eea;
+  font-weight: 500;
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.education-degree {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.education-college {
+  color: #666;
+  font-size: 1rem;
+}
+
+.education-date {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.education-awards {
+  margin-top: 1rem;
+}
+
+.award-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    padding: 1.5rem;
+  }
+  
+  .education-school {
+    font-size: 1.5rem;
+  }
+  
+  .education-header {
+    flex-direction: column;
+  }
+}
+
