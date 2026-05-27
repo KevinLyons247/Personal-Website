@@ -1,47 +1,22 @@
-Personal Website - Kevin Lyons
-My personal portfolio site, built as a full-stack application using React and Node.js. It serves as a central hub for my projects, research experience, and technical skills.
+# Personal Website - Kevin Lyons
 
-Tech Stack
-Frontend: React, Custom CSS (Gradients & Animations)
+A full-stack personal portfolio built with React and Node.js to showcase my projects, research experience, and technical skills.
 
-Backend: Node.js, Express
+## Tech Stack
 
-Deployment: [Optional: Add where you host it, e.g., Vercel/Heroku]
+* **Frontend:** React.js, HTML5, CSS3 (Custom animations and Grid/Flexbox)
+* **Backend:** Node.js, Express
+* **Tools:** npm, Git, Concurrently
 
-Project Setup
-1. Installation
-Install dependencies for both the client and server from the root directory:
+## Setup & Installation
 
-Bash
-npm run install-all
-2. Development
-To run the React frontend and Express backend concurrently:
+### Prerequisites
+* Node.js (v14 or higher)
+* npm
 
-Bash
-npm run dev
-Frontend: http://localhost:3000
+### Installation
 
-Backend: http://localhost:5000
-
-3. Production Build
-Bash
-npm run build
-Folder Structure
-Plaintext
-├── client/           # React frontend (Components, Hooks, Styling)
-├── server/           # Node.js/Express backend
-├── package.json      # Root scripts for concurrent execution
-└── README.md
-Components & Design
-Responsive Layout: Fully optimized for mobile and desktop using CSS Grid and Flexbox.
-
-Full-Stack Integration: Uses a Node/Express backend to handle [mention one thing, e.g., contact form requests or project data].
-
-Modern UI: Utilizes custom CSS animations and glassmorphism-inspired design elements.
-
-Contact & Links
-GitHub: KevinLyons247
-
-LinkedIn: Kevin Lyons
-
-Email: kevinlyons247@gmail.com
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/KevinLyons247/personal-website.git](https://github.com/KevinLyons247/personal-website.git)
+   cd personal-website
